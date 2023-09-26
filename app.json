@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Shopping",
+    "slug": "shopping",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.isexexpo.shoppinglist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.isexexpo.shoppinglist"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cbbf004b-6179-4763-8a4b-7333ce36051a"
+      }
+    }
+  }
+}
